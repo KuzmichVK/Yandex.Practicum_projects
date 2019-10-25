@@ -1,0 +1,9 @@
+SELECT
+    festival_name,
+    EXTRACT (WEEK FROM festival_date) AS festival_week
+FROM
+    festivals
+WHERE
+    CAST(festival_date AS date) <= '2018-09-30' AND
+    CAST(festival_date AS date) >= '2018-07-23' AND
+    festival_city = 'Москва'
