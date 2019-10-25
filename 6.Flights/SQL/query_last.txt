@@ -1,0 +1,35 @@
+SELECT
+    week_number,
+    ticket_amount,
+    festival_week,
+    festival_name
+FROM
+(SELECT
+     EXTRACT (WEEK FROM arrival_time) AS week_number,
+     COUNT(ticket_no) AS ticket_amount
+FROM
+    flights
+LEFT JOIN airports ON airports.airport_code  = flights.arrival_airport
+LEFT JOIN ticket_flights ON ticket_flights.flight_id  = flights.flight_id
+WHERE
+    CAST(arrival_time AS date) <= '2018-09-30' AND
+    CAST(arrival_time AS date) >= '2018-07-23' AND
+    city = 'Москва'
+GROUP BY
+    week_number
+) AS FLIGHTS2
+LEFT JOIN 
+(
+SELECT
+    festival_name,
+    EXTRACT (WEEK FROM festival_date) AS festival_week
+FROM
+    festivals
+WHERE
+    CAST(festival_date AS date) <= '2018-09-30' AND
+    CAST(festival_date AS date) >= '2018-07-23' AND
+    festival_city = 'Москва'
+) AS FEST
+ON FEST.festival_week = FLIGHTS2.week_number
+ORDER BY
+    week_number

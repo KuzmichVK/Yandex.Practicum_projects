@@ -1,0 +1,20 @@
+SELECT
+    CITY_DAY_FLIGHTS.city AS city,
+    AVG(CITY_DAY_FLIGHTS.flights_amount) AS average_flights
+FROM
+(
+    SELECT
+        city,
+        arrival_time :: date AS date,
+        COUNT(city) AS flights_amount
+    FROM
+        airports
+    RIGHT JOIN flights ON flights.arrival_airport = airports.airport_code 
+    WHERE
+        arrival_time :: date <= '2018-08-31' AND
+        arrival_time :: date >= '2018-08-01'
+    GROUP BY
+        city,
+        arrival_time :: date) AS CITY_DAY_FLIGHTS
+GROUP BY
+    city

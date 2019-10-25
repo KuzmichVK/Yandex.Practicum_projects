@@ -1,0 +1,11 @@
+SELECT
+    model,
+    COUNT(model) AS flights_amount
+FROM
+    aircrafts
+RIGHT JOIN flights ON flights.aircraft_code = aircrafts.aircraft_code
+WHERE
+    CAST(departure_time AS date) <= '2018-09-30' AND
+    CAST(departure_time AS date) >= '2018-09-01'
+GROUP BY
+    model
