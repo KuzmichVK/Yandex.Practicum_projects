@@ -21,3 +21,4 @@
 ## Библиотеки
 1. pandas
 2. scipy
+3. requests
