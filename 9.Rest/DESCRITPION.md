@@ -13,3 +13,12 @@
 ### Посмотрел на распределение количества посадочных мест для улиц с большим количеством объектов общественного питания.
 ## Подготовил презентацию
 ### https://yadi.sk/d/zfdv1U5Z62gnmQ
+## Библиотеки:
+1. pandas
+2. numpy
+3. matplotlib.pyplot
+4. scipy.stats
+5. plotly.express
+6. seaborn
+7. json
+8. requests
