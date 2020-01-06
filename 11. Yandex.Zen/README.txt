@@ -1,37 +1,37 @@
-Äàøáîðä äëÿ ßíäåêñ.Äçåí
+Ð”Ð°ÑˆÐ±Ð¾Ñ€Ð´ Ð´Ð»Ñ Ð¯Ð½Ð´ÐµÐºÑ.Ð”Ð·ÐµÐ½
 
-Îí ïîìîãàåò îòâåòèòü íà âîïðîñû:
-- Cêîëüêî âçàèìîäåéñòâèé ïîëüçîâàòåëåé ñ êàðòî÷êàìè ïðîèñõîäèò â ñèñòåìå ñ ðàçáèâêîé ïî òåìàì êàðòî÷åê?
-- Êàê ìíîãî êàðòî÷åê ãåíåðèðóþò èñòî÷íèêè ñ ðàçíûìè òåìàìè?
-- Íàñêîëüêî õîðîøî ïîëüçîâàòåëè êîíâåðòèðóþòñÿ èç ïîêàçîâ êàðòî÷åê â ïðîñìîòðû ñòàòåé?
+ÐžÐ½ Ð¿Ð¾Ð¼Ð¾Ð³Ð°ÐµÑ‚ Ð¾Ñ‚Ð²ÐµÑ‚Ð¸Ñ‚ÑŒ Ð½Ð° Ð²Ð¾Ð¿Ñ€Ð¾ÑÑ‹:
+- CÐºÐ¾Ð»ÑŒÐºÐ¾ Ð²Ð·Ð°Ð¸Ð¼Ð¾Ð´ÐµÐ¹ÑÑ‚Ð²Ð¸Ð¹ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¹ Ñ ÐºÐ°Ñ€Ñ‚Ð¾Ñ‡ÐºÐ°Ð¼Ð¸ Ð¿Ñ€Ð¾Ð¸ÑÑ…Ð¾Ð´Ð¸Ñ‚ Ð² ÑÐ¸ÑÑ‚ÐµÐ¼Ðµ Ñ Ñ€Ð°Ð·Ð±Ð¸Ð²ÐºÐ¾Ð¹ Ð¿Ð¾ Ñ‚ÐµÐ¼Ð°Ð¼ ÐºÐ°Ñ€Ñ‚Ð¾Ñ‡ÐµÐº?
+- ÐšÐ°Ðº Ð¼Ð½Ð¾Ð³Ð¾ ÐºÐ°Ñ€Ñ‚Ð¾Ñ‡ÐµÐº Ð³ÐµÐ½ÐµÑ€Ð¸Ñ€ÑƒÑŽÑ‚ Ð¸ÑÑ‚Ð¾Ñ‡Ð½Ð¸ÐºÐ¸ Ñ Ñ€Ð°Ð·Ð½Ñ‹Ð¼Ð¸ Ñ‚ÐµÐ¼Ð°Ð¼Ð¸?
+- ÐÐ°ÑÐºÐ¾Ð»ÑŒÐºÐ¾ Ñ…Ð¾Ñ€Ð¾ÑˆÐ¾ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ð¸ ÐºÐ¾Ð½Ð²ÐµÑ€Ñ‚Ð¸Ñ€ÑƒÑŽÑ‚ÑÑ Ð¸Ð· Ð¿Ð¾ÐºÐ°Ð·Ð¾Ð² ÐºÐ°Ñ€Ñ‚Ð¾Ñ‡ÐµÐº Ð² Ð¿Ñ€Ð¾ÑÐ¼Ð¾Ñ‚Ñ€Ñ‹ ÑÑ‚Ð°Ñ‚ÐµÐ¹?
 
-Óñòàíîâêà
+Ð£ÑÑ‚Ð°Ð½Ð¾Ð²ÐºÐ°
 Ubuntu(Linux):
-sudo apt update - îáíîâèë ÎÑ
-sudo apt install postgres - óñòàíîâèë postgres 
-sudo apt install postgresql postgresql-contrib - óñòàíîâèë postgresql 
-sudo service postgresql start - çàïóñòèë postgresql 
-sudo apt install python3-pip - óñòàíîâèë python3
-pip3 install dash==1.4.1 - óñòàíîâèë dash
-sudo apt-get install sqlite3 libsqlite3-dev - óñòàíîâèë sqlite3 
-sudo apt install python3-pandas - óñòàíîâèë áèáëèîòåêó pandas 
-sudo apt install python3-sqlalchemy - óñòàíîâèë áèáëèîòåêó sqlalchemy
-sudo apt-get install python3-psycopg2 - óñòàíîâèë áèáëèîòåêó psycopg2
+sudo apt update - Ð¾Ð±Ð½Ð¾Ð²Ð¸Ð» ÐžÐ¡
+sudo apt install postgres - ÑƒÑÑ‚Ð°Ð½Ð¾Ð²Ð¸Ð» postgres 
+sudo apt install postgresql postgresql-contrib - ÑƒÑÑ‚Ð°Ð½Ð¾Ð²Ð¸Ð» postgresql 
+sudo service postgresql start - Ð·Ð°Ð¿ÑƒÑÑ‚Ð¸Ð» postgresql 
+sudo apt install python3-pip - ÑƒÑÑ‚Ð°Ð½Ð¾Ð²Ð¸Ð» python3
+pip3 install dash==1.4.1 - ÑƒÑÑ‚Ð°Ð½Ð¾Ð²Ð¸Ð» dash
+sudo apt-get install sqlite3 libsqlite3-dev - ÑƒÑÑ‚Ð°Ð½Ð¾Ð²Ð¸Ð» sqlite3 
+sudo apt install python3-pandas - ÑƒÑÑ‚Ð°Ð½Ð¾Ð²Ð¸Ð» Ð±Ð¸Ð±Ð»Ð¸Ð¾Ñ‚ÐµÐºÑƒ pandas 
+sudo apt install python3-sqlalchemy - ÑƒÑÑ‚Ð°Ð½Ð¾Ð²Ð¸Ð» Ð±Ð¸Ð±Ð»Ð¸Ð¾Ñ‚ÐµÐºÑƒ sqlalchemy
+sudo apt-get install python3-psycopg2 - ÑƒÑÑ‚Ð°Ð½Ð¾Ð²Ð¸Ð» Ð±Ð¸Ð±Ð»Ð¸Ð¾Ñ‚ÐµÐºÑƒ psycopg2
 
-Ïðèìåð èñïîëüçîâàíèÿ:
-- Ñðàâíåíèå ïîïóëÿðíîñòè ðàçíûõ òåì ñðåäè ïîëüçîâàòåëåé.
-- Ñðàâíåíèå ïîïóëÿðíîñòè ðàçíûõ òåì ñðåäè èñòî÷íèêîâ.
-- Ïîäñ÷åò ëþäåé, êîòîðûå ïðîñìîòðÿò êîíòåíò ïî âîðîíêå.
+ÐŸÑ€Ð¸Ð¼ÐµÑ€ Ð¸ÑÐ¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ð½Ð¸Ñ:
+- Ð¡Ñ€Ð°Ð²Ð½ÐµÐ½Ð¸Ðµ Ð¿Ð¾Ð¿ÑƒÐ»ÑÑ€Ð½Ð¾ÑÑ‚Ð¸ Ñ€Ð°Ð·Ð½Ñ‹Ñ… Ñ‚ÐµÐ¼ ÑÑ€ÐµÐ´Ð¸ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÐµÐ¹.
+- Ð¡Ñ€Ð°Ð²Ð½ÐµÐ½Ð¸Ðµ Ð¿Ð¾Ð¿ÑƒÐ»ÑÑ€Ð½Ð¾ÑÑ‚Ð¸ Ñ€Ð°Ð·Ð½Ñ‹Ñ… Ñ‚ÐµÐ¼ ÑÑ€ÐµÐ´Ð¸ Ð¸ÑÑ‚Ð¾Ñ‡Ð½Ð¸ÐºÐ¾Ð².
+- ÐŸÐ¾Ð´ÑÑ‡ÐµÑ‚ Ð»ÑŽÐ´ÐµÐ¹, ÐºÐ¾Ñ‚Ð¾Ñ€Ñ‹Ðµ Ð¿Ñ€Ð¾ÑÐ¼Ð¾Ñ‚Ñ€ÑÑ‚ ÐºÐ¾Ð½Ñ‚ÐµÐ½Ñ‚ Ð¿Ð¾ Ð²Ð¾Ñ€Ð¾Ð½ÐºÐµ.
 
-Íàñòðîéêà:
-- Äëÿ äîñòóïà ê ÁÄ:
-	èìÿ - automation-test
+ÐÐ°ÑÑ‚Ñ€Ð¾Ð¹ÐºÐ°:
+- Ð”Ð»Ñ Ð´Ð¾ÑÑ‚ÑƒÐ¿Ð° Ðº Ð‘Ð”:
+	Ð¸Ð¼Ñ - automation-test
 	login - test_admin
-	ïóáëè÷íûé ip - 84.201.169.81
+	Ð¿ÑƒÐ±Ð»Ð¸Ñ‡Ð½Ñ‹Ð¹ ip - 84.201.169.81
 	parol - test_admin
 	user - my_user
 	password - my_user_password
-- Äëÿ ñîçäàíèÿ òàáëè÷åê è ðàçäà÷à ïðàâ:
+- Ð”Ð»Ñ ÑÐ¾Ð·Ð´Ð°Ð½Ð¸Ñ Ñ‚Ð°Ð±Ð»Ð¸Ñ‡ÐµÐº Ð¸ Ñ€Ð°Ð·Ð´Ð°Ñ‡Ð° Ð¿Ñ€Ð°Ð²:
 	CREATE TABLE dash_engagement(record_id serial PRIMARY KEY, 
 	                             dt TIMESTAMP, 
         	                     item_topic VARCHAR(128), 
@@ -50,8 +50,8 @@ sudo apt-get install python3-psycopg2 - óñòàíîâèë áèáëèîòåêó psycopg2
 	GRANT ALL PRIVILEGES ON TABLE dash_visits TO my_user;
 	GRANT USAGE, SELECT ON SEQUENCE dash_visits_record_id_seq TO my_user;
 
-- Äëÿ çàïóñêà ïàéïëàéíà:
+- Ð”Ð»Ñ Ð·Ð°Ð¿ÑƒÑÐºÐ° Ð¿Ð°Ð¹Ð¿Ð»Ð°Ð¹Ð½Ð°:
 	python3 zen_pipeline.py --start_dt='2019-09-24 18:00:00' --end_dt='2019-09-24 19:00:00'
 
-- Äëÿ ðåãóëÿðíîãî çàïóñêà ïàéïëàéíà:
+- Ð”Ð»Ñ Ñ€ÐµÐ³ÑƒÐ»ÑÑ€Ð½Ð¾Ð³Ð¾ Ð·Ð°Ð¿ÑƒÑÐºÐ° Ð¿Ð°Ð¹Ð¿Ð»Ð°Ð¹Ð½Ð°:
 	15 3 * * * python3 -u -W ignore /home/test_admin/zen_pipeline.py --start_dt='2019-09-24 18:00:00' --end_dt='2019-09-24 19:00:00' 2>&1
