@@ -38,7 +38,7 @@ numpy==1.13.3
 oauthlib==2.0.6
 olefile==0.45.1
 pandas==0.22.0
-Pillow==5.1.0
+Pillow==6.2.0
 plotly==4.3.0
 psycopg2==2.7.4
 pycrypto==2.6.1
