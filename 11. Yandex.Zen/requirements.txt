@@ -22,7 +22,7 @@ future==0.18.2
 html5lib==0.999999999
 idna==2.6
 itsdangerous==1.1.0
-Jinja2==2.10.3
+Jinja2==2.11.3
 jsonpatch==1.16
 jsonpointer==1.10
 jsonschema==2.6.0
