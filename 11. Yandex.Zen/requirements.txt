@@ -61,6 +61,6 @@ ssh-import-id==5.7
 tables==3.4.2
 ufw==0.36
 unattended-upgrades==0.1
-urllib3==1.22
+urllib3==1.26.5
 webencodings==0.5
 Werkzeug==0.16.0
